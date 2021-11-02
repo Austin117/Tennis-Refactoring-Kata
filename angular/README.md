@@ -29,7 +29,6 @@
 ## Future Plans
 
 - Mob with UI/UX designer to make more look and feel improvements to the kata and also to introduce more css/html code smells
-- Experiment with TCR tool and add instructions for TCR setup in this readme
 
 
   
