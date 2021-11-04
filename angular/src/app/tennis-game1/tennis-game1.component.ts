@@ -4,6 +4,9 @@ import {FormControl, FormGroup, Validators} from '@angular/forms';
 import {ManagerOfZanzibar} from './ZanzibarManager';
 import {debounceTime} from 'rxjs/operators';
 import {DeBouncer} from '../debouncer.service';
+import {Howl} from 'Howler';
+
+
 
 @Component({
   selector: 'app-tennis-game1',
@@ -26,6 +29,10 @@ export class TennisGame1Component implements OnInit, TennisGame {
     private zanzibar: ManagerOfZanzibar,
     private deBouncer: DeBouncer,
   ) { }
+
+  tennisBallHitSound = new Howl({
+    src: ['../../assets/tennis-ball-hit.mp3']
+  });
 
   ngOnInit() {
     const player1Score = this.tennisGameForm.get('player1Score');

@@ -21,7 +21,7 @@
           </mat-error>
         </mat-form-field>
         <!--  TODO: <iframe> Gary said he wanted this later-->
-        <button id="get-score-button" [disabled]="!tennisGameForm.valid" type="submit" mat-raised-button>
+        <button id="get-score-button" [disabled]="!tennisGameForm.valid" type="submit" (click)="tennisBallHitSound.play()" mat-raised-button>
           Get Score
         </button>
       </form>
