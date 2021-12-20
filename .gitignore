@@ -13,3 +13,7 @@ csharp/*.suo
 csharp/.vs
 .vs
 .phpunit.result.cache
+javascript-wallaby/node_modules/
+.idea/limited-wip.xml
+javascript-wallaby/.idea/limited-wip.xml
+javascript-wallaby/package-lock.json
