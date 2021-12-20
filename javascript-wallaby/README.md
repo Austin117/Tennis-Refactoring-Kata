@@ -1,0 +1,8 @@
+![](TennisKataWithWallabyScreenshot.PNG)
+
+## How to Run Tests
+
+1. From this `javascript-wallaby` directory, on the command line run `npm i`
+2. Add the [Wallaby](https://wallabyjs.com/) extension to your IDE 
+3. Run the tests continuously via the [Wallaby](https://wallabyjs.com/) extension
+
